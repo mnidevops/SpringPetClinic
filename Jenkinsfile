@@ -1,5 +1,5 @@
 pipeline{
-    agent{label 'master'}
+    agent any
     tools{maven 'maven-3.9.4'}
     stages{
         stage('Checkout'){
